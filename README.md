@@ -51,7 +51,7 @@ Exclusions and activity journals are stored under `%LOCALAPPDATA%\MaintenanceFor
 
 ## Product direction
 
-The base app is intended to be free for personal use with free expert details. The planned **Maintenance for Windows — Technician Edition** adds professional workflows and a pay-once license per major version. Purchasing 1.x includes released 1.x updates; later major upgrades are optional. Pricing, support duration, publisher identity, and source licensing are undecided.
+The consumer app is free for personal, non-commercial use with free expert details under LICENSE. The planned **Maintenance for Windows — Technician Edition** adds professional workflows and a pay-once license per major version. Purchasing 1.x includes released 1.x updates; later major upgrades are optional. Pricing, support duration, final legal publisher identity, and commercial terms are undecided. Public developer identity is JonAlexInc; source-reuse rights are reserved.
 
 Future platform names: **Maintenance for Mac** and **Maintenance for Linux**. They are plans, not currently supported platforms.
 
