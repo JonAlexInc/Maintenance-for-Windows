@@ -1,6 +1,6 @@
 # GitHub publication checklist
 
-Public consumer repository: `JonAlexInc/maintenance-for-windows`, https://github.com/JonAlexInc/maintenance-for-windows. Repository creation and private vulnerability reporting were verified during publication. No stable binary release or signing enrollment is authorized by source publication.
+Public consumer repository: `JonAlexInc/Maintenance-for-Windows`, https://github.com/JonAlexInc/Maintenance-for-Windows. Repository creation and private vulnerability reporting were verified during publication. No stable binary release or signing enrollment is authorized by source publication.
 
 ## Naming
 
@@ -9,7 +9,7 @@ Public consumer repository: `JonAlexInc/maintenance-for-windows`, https://github
 | Product | Maintenance for Windows |
 | Paid edition | Maintenance for Windows — Technician Edition |
 | Future platforms | Maintenance for Mac; Maintenance for Linux |
-| Repository | maintenance-for-windows |
+| Repository | Maintenance-for-Windows |
 | First preview tag | v0.0.1 |
 | First preview asset | maintenance-for-windows-0.0.1-win-x64.zip |
 
