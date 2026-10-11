@@ -1,0 +1,14 @@
+.tools/
+.test-data/
+artifacts/
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.pfx
+*.p12
+.env
+.env.*
+!.env.example
+local-data/

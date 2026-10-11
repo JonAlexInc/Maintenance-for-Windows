@@ -1,0 +1,5 @@
+# Maintenance icon v1
+
+Generated with the built-in image generation tool on 2026-10-10. The PNG is the original transparent source; the ICO packages 16, 24, 32, 48, 64, 128, and 256 pixel sizes for Windows. This is a first visual direction, not a trademark clearance.
+
+Prompt: Use case: logo-brand. Create one premium modern Windows desktop app icon for 'Maintenance for Windows', a polished PC health, cleanup, hardware diagnostics and performance utility. No words or letters. A bold instantly legible sculptural open-end wrench integrated into a rounded geometric maintenance emblem, elegant strong silhouette, restrained dimensional depth, brushed silver focal tool with cyan-teal and violet enamel accents matching the application's themes. Professional futuristic utility, not a cartoon repairman. Centered square composition, icon occupies 85 percent of canvas, transparent background outside the emblem. Clear at small taskbar sizes; broad forms, no intricate gears, no tiny details, no text, no Windows logo, no mockup sheet, no extra icons. Soft precise highlights and excellent edge definition, straight-on app icon asset.

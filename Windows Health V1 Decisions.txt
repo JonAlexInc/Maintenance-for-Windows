@@ -1,0 +1,58 @@
+Maintenance for Windows — Version One Decisions
+Approved baseline as of October 10, 2026
+
+STATUS
+The user approved the version one direction and pay-once Technician model. The product naming scheme is approved. Visual design, pricing, support term, and post-service access model remain proposals. This is a project record, not a claim of implemented software.
+
+LOCKED PRODUCT DIRECTION
+Free personal Windows health application, simple enough for everyday users with a free expert view. Paid Technician edition adds professional workflows around the same cleanup and diagnostic engine. Core safety, evidence, exclusions, and basic action records are not paid upgrades.
+Product promise: see what changed, clean up with confidence, and keep a clear record of results.
+Initial platform: Windows 11 x64. Initial checks are on demand, local, account-free, and usable offline.
+
+PERSONAL 1.0 SCOPE
+Prioritized overview with timestamps, check coverage, unknown states, and next actions; no arbitrary health score.
+Conservative cleanup of known user and Windows temporary locations, preview, exclusions, in-use handling, and execution-time validation.
+Small published list of tested application caches; initial browser candidates Chrome, Edge, Firefox. Preserve credentials, cookies, sessions, history, and offline content by default.
+Separate explicit Recycle Bin review and empty action.
+Local drive capacity/free space and supported cleanup-category sizes; no full-drive index.
+Compare snapshots of tracked storage locations, application inventory, and supported startup entries. Distinguish observation from attribution and cause.
+Startup inspection and links to Windows controls; direct startup modifications deferred.
+Basic low-space, available protection-status, and pending-restart checks; inaccessible information remains unknown.
+Local scan summaries, action history, retention controls, preferences, exclusions, and dismissed recommendations.
+Free expert details and basic readable support export with preview and redaction options.
+Deletion is not universally reversible. Report recoverability honestly and distinguish retained bytes from reclaimed space.
+
+TECHNICIAN 1.0 SCOPE
+Service sessions with client/machine reference, symptoms, and notes.
+Baseline and final comparisons; distinguish app-executed actions from externally observed changes.
+Reusable profiles that prepare plans without silently authorizing actions or overriding safety rules.
+Client-ready branded PDF reports, structured exports, and local searchable session archive on the technician's computer.
+Portable operation with explicit job-data destination; no technician license or unrelated client records left on customer machines.
+Workflow: open job, capture baseline, review findings, execute selected cleanup, recheck, deliver report.
+
+LOCKED COMMERCIAL MODEL
+Personal edition is free. Technician is purchased once per major version, not a mandatory subscription. Purchased major version does not expire. All released 1.x updates are included for 1.x owners. Version 2 and later major upgrades are optional paid purchases. Skipping a major version does not disable the existing license.
+Baseline licensing design: one named technician may service multiple client PCs. Offline license operation. Client may retain the free personal application.
+Permanent use does not promise indefinite support or future Windows compatibility. Publish the support period and supported Windows versions before sales. Price and upgrade discount remain undecided.
+
+LATER
+More tested rules and refinements in 1.x. Scheduled checks, growth alerts, reversible startup controls after core validation. Major guided repairs and deeper crash/update diagnosis may justify 2.0. Separate validation tracks for malware, rootkits, offline remediation, ARM64, older Windows support, Mac, Linux, remote access, and hosted fleet services.
+No current commitment to registry cleaning, RAM boosting, automatic driver replacement, bulk service disabling, or fix-everything actions.
+
+RELEASE ACCEPTANCE
+Respect exclusions and intended paths despite concurrent file changes. Skip uncertain items with explanation. Confirm browser defaults preserve sessions. Record successes, failures, skips, and observed changes accurately. Avoid false reclaimed-space precision. Keep technician credentials and archive off client PCs. Validate offline workflow and comprehension with representative users.
+
+PROPOSED POST SERVICE DESIGN NOT YET APPROVED
+Separate Personal and Technician workspaces using the shared engine. Expert view is not Technician authorization.
+Technician workspace requires a valid license plus local technician authentication; app authorization is separate from Windows privilege elevation.
+On session lock, inactivity, close, or restart, privileged technician actions require fresh authorization. Pending operations must finish safely or cancel safely rather than being interrupted blindly.
+End-service flow previews client deliverables, saves the technician archive externally, closes authorization, and optionally leaves the personal app plus this client's approved report and exclusions.
+Optional Guided Care leaves the client ordinary checks, report access, and an approved cleanup profile, while protecting profile edits and advanced actions from accidental changes. No background remote control.
+PC owner can remove Guided Care through a clear local recovery/reset route. Personal history and reports remain accessible. A local administrator can ultimately alter local software; this is not enterprise tamper-proof lockdown.
+No shared master PIN, resident technician-wide license secret, unrelated client archive, or hidden support connection on the client machine.
+True OS lockdown, kiosk mode, and organization-enforced policy are outside 1.0.
+
+NAMING AND DESIGN
+Approved product names: Maintenance for Windows; Maintenance for Mac; Maintenance for Linux. Paid edition naming: Maintenance for Windows — Technician Edition, with the same pattern for future platforms. Proposed GitHub slug: maintenance-for-windows. Prior naming candidates are superseded. Version 0.01 implementation scope is recorded in docs/V0.01.md; the wider V1 scope remains planned.
+Visual direction proposal: calm native Windows layout; persistent Overview, Cleanup, Changes, History navigation; expandable technical detail; distinct authorized Technician workspace and explicit end-service handoff. No warning-heavy dashboard or performance score.
+

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><Version>0.0.1</Version>
+    <AssemblyName>MaintenanceForWindows</AssemblyName><ApplicationIcon>Assets/maintenance-icon-v1.ico</ApplicationIcon><ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Maintenance.Core/Maintenance.Core.csproj" /></ItemGroup>
+  <ItemGroup><Content Include="WindowsInventory.ps1" CopyToOutputDirectory="PreserveNewest" /><Content Include="SystemInventory.ps1" CopyToOutputDirectory="PreserveNewest" /></ItemGroup>
+  <ItemGroup><Content Include="StartupInventory.ps1" CopyToOutputDirectory="PreserveNewest" /><Content Include="StartupChange.ps1" CopyToOutputDirectory="PreserveNewest" /></ItemGroup>
+  <ItemGroup><Content Include="pci.ids" CopyToOutputDirectory="PreserveNewest" /><Content Include="PCI-NOTICE.txt" CopyToOutputDirectory="PreserveNewest" /></ItemGroup><ItemGroup><Content Include="Tools/**" CopyToOutputDirectory="PreserveNewest" /></ItemGroup><ItemGroup><Content Include="hardware-specs.json" CopyToOutputDirectory="PreserveNewest" /></ItemGroup></Project>
+
+
+
+
+

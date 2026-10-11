@@ -1,0 +1,45 @@
+Maintenance for Windows — Consumer Source and Use Terms
+
+Copyright (c) 2026 JonAlexInc. All rights reserved except as stated below.
+JonAlexInc identifies the project's public developer; it is not a statement
+that a particular legal entity has been incorporated.
+
+1. Free personal use
+You may download, build, install, and run the consumer application without
+charge for your own personal, non-commercial use. You may make local copies
+needed for that use. No activation fee is imposed by these terms.
+
+2. Public source; reserved reuse rights
+The source is published for inspection and transparency. This is not an
+open-source license. Except for the personal-use permission above, rights
+to modify, redistribute, sublicense, sell, or incorporate project-specific
+code or assets into another product are reserved. No commercial source-use
+or technician/fleet-management license is granted by this document.
+Contact the maintainer through the project for separate permission.
+
+3. GitHub and third-party rights
+These terms do not limit the viewing and forking rights granted through
+GitHub's applicable terms. Third-party components remain subject to their
+own licenses, which control those components independently. See
+THIRD-PARTY-NOTICES.md and the bundled component notices.
+
+4. Preview status and data loss
+This application is a development preview. File deletion, uninstallation,
+and settings changes can cause loss of files, settings, or functionality.
+Review actions and maintain independent backups. Permanent deletion is
+not reversible through the application. Recovery, where supported, is
+best effort and is not guaranteed. Planned features are not promises of
+implemented capability.
+
+5. Warranty and liability
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED "AS IS"
+AND "AS AVAILABLE", WITHOUT WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, OR NON-INFRINGEMENT. TO THE EXTENT PERMITTED BY
+APPLICABLE LAW, THE COPYRIGHT HOLDERS AND CONTRIBUTORS SHALL NOT BE LIABLE
+FOR DAMAGES ARISING FROM USE OF THE SOFTWARE, INCLUDING LOSS OF DATA.
+Nothing in these terms excludes rights or liabilities that applicable law
+does not permit to be excluded.
+
+These initial project terms do not replace any additional, separately
+agreed commercial license. Consumer/commercial release terms and the
+legal publisher identity remain subject to review before a stable release.
